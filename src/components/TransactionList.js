@@ -5,6 +5,7 @@ import { Transaction } from './Transaction';
 import { GlobalContext } from '../context/GlobalState';
 
 export const TransactionList = () => {
+  //ประกาศแบบ usestate เพราะ state เราอยู่ใน store
   const { transactions } = useContext(GlobalContext);
 
   return (
